@@ -1,4 +1,4 @@
-# Twitter-s-Impact-on-Financial-Markets-Analyzing-Pfizer-AstraZeneca-and-SinoPharm-Case-Study
+# Twitter-Impact-on-Financial-Markets-Analyzing-Pfizer-AstraZeneca-and-SinoPharm-Case-Study
 
 Data Management Project at University of Milano Bicocca - Data Science.
 
