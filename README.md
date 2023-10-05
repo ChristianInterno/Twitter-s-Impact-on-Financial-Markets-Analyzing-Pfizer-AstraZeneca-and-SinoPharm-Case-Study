@@ -1,6 +1,6 @@
 # Twitter's Impact on Financial Markets: Analyzing Pfizer, AstraZeneca, and SinoPharm Case Study
 
-![Header Image]([https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80](https://www.europeanpharmaceuticalreview.com/wp-content/uploads/COVID-19-vaccine-finance-MCAP.jpg)
+![Header Image](https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80)
 
 > **A Data Management Project at the University of Milano Bicocca - Data Science.** 
 
