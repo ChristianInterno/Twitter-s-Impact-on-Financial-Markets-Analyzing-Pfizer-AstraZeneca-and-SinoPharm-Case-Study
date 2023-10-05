@@ -1,23 +1,45 @@
-# Twitter-Impact-on-Financial-Markets-Analyzing-Pfizer-AstraZeneca-and-SinoPharm-Case-Study
+# Analyzing the Impact of Twitter on Financial Markets: A Case Study of Pfizer, AstraZeneca, and Sinopharm
 
-Data Management Project at University of Milano Bicocca - Data Science.
+This project is a part of the Data Management coursework at the University of Milano Bicocca - Data Science. Our main goal was to understand the potential influence of tweets related to specific pharmaceutical companies on their respective stock market trends. 
 
-The project aimed to understand if tweets related to a particular company influence the stock market trends of that company. To answer this question, we focused on three different pharmaceutical companies that produced COVID19 vaccines: Sinopharm, AstraZeneca, and Pfizer. We extracted tweets containing the name of at least one of the three companies and integrated them with stock market data. The visualizations allowed us to represent the daily and hourly trends of the number of tweets and the stock market trends, including additional parameters such as sentiment and tweet engagement. However, the infographics did not provide a clear judgment regarding a possible link between the two trends. Python Notebook was used for the data integration part, and Tableau was used for the graphical visualizations.
+## Objective
 
-## The project included two folders: The first folder named "Data gathering" contains python notebooks related to data collection:
+We concentrated our study on three major pharmaceutical companies that produced COVID-19 vaccines: 
+- Sinopharm
+- AstraZeneca
+- Pfizer
 
-1.A-Snscraper: Used to collect tweets
-1.B-Data stock: Used to collect stock data
-2.A-Data merge stock: Used to merge stock datasets
-3.A-Integration_Sinopharm: Integration of Sinopharm tweets and stocks
-3.B-Integration_Astrazeneca: Integration of Astrazeneca tweets and stocks
-3.C-Integration_Pfizer: Integration of Pfizer tweets and stocks
+Our approach involved extracting tweets that mentioned at least one of the aforementioned companies and subsequently integrating this data with stock market trends. Through visualizations, we were able to observe the daily and hourly patterns of tweet counts and stock market movements, factoring in sentiment analysis and tweet engagement. Despite our thorough analysis, the visuals did not conclusively establish a direct correlation between the tweet and stock trends.
 
-## In the "Real-time" folder, you can find:
+## Tools Used
 
-Kafka producer and consumer for financial data and tweets, with the Nifi workflow
-The integration folder contains real-time integrations.
-The project aimed to understand if tweets related to a particular company influence the stock market trends of that company. To answer this question, we focused on three different pharmaceutical companies that produced COVID19 vaccines: Sinopharm, AstraZeneca, and Pfizer. We extracted tweets containing the name of at least one of the three companies and integrated them with stock market data. The visualizations allowed us to represent the daily and hourly trends of the number of tweets and the stock market trends, including additional parameters such as sentiment and tweet engagement. However, the infographics did not provide a clear judgment regarding a possible link between the two trends. Python Notebook was used for the data integration part, and Tableau was used for the graphical visualizations.
+- **Data Integration**: Python Notebooks
+- **Visualization**: Tableau
 
-## The "Data" folder contains data related to actions, tweets, and integrated datasets
+## Repository Structure
 
+### `Data gathering` folder:
+
+This folder contains Python notebooks used in the data collection phase:
+
+1. **A-Snscraper**: For tweet collection
+2. **B-Data stock**: For collecting stock market data
+3. **A-Data merge stock**: To merge different stock datasets
+4. **Integration_Sinopharm**: Combines Sinopharm tweets with stock data
+5. **Integration_Astrazeneca**: Merges AstraZeneca tweets with stock data
+6. **Integration_Pfizer**: Integrates Pfizer tweets with stock data
+
+### `Real-time` folder:
+
+Inside this folder:
+
+- Kafka producer and consumer for financial data and tweets
+- Nifi workflow representation
+- Real-time data integration processes
+
+### `Data` folder:
+
+This folder houses:
+- Action-related data
+- Tweet datasets
+- Integrated data sets
